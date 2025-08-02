@@ -24,7 +24,7 @@ declare global {
 }
 
 const API_URL =
-  'https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=AIzaSyCgPvq2EkVZ_lpsWkBpVYZbSfnVmAvbe4E'
+  'https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key='?'
 
 export default function Home() {
   const [messages, setMessages] = useState<Message[]>([])
